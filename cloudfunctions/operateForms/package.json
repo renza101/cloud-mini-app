@@ -1,13 +1,13 @@
 {
-  "name": "login",
+  "name": "operateForms",
   "version": "1.0.0",
-  "description": "",
+  "description": "opreate the collection of 'forms' in cloud database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dorence Deng",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "wx-server-sdk": "latest"
   }

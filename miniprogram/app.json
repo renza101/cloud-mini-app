@@ -1,58 +1,42 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/admin/index",
-    "pages/noticeBoard/index",
-    "pages/serviceCenter/index",
-    "pages/userConsole/userConsole",
-    "pages/borrowClassroom/borrowClassroom",
-
+    "pages/facilities/index",
+    "pages/approval/exportApproval",
+    "pages/approval/listApproval",
+    "pages/approval/viewApproval",
+    "pages/facilities/borrowClassroom",
+    "pages/facilities/listBorrow",
     "pages/progressCheck/progressCheck",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/test/test",
-    "pages/listApproval/listApproval",
-    "pages/listApproval/viewApproval"
+    "pages/materials/borrowThings",
+    "pages/materials/borrowThings_form",
+    "pages/materials/addThings",
+    "pages/materials/materialsIndex",
+    "pages/progressCheck/printForm"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "场地借用系统",
-    "navigationBarTextStyle": "black"
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "场地借用系统"
   },
   "tabBar": {
-    "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
     "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "color": "#7a7e83",
+    "selectedColor": "#3cc51f",
     "list": [
       {
-        "pagePath": "pages/serviceCenter/index",
-        "text": "办事大厅",
-        "iconPath": "images/star.png",
-        "selectedIconPath": "images/star.png"
+        "pagePath": "pages/facilities/index",
+        "iconPath": "assets/hall.png",
+        "selectedIconPath": "assets/hall-HL.png",
+        "text": "场地借用"
       },
       {
-        "pagePath": "pages/noticeBoard/index",
-        "text": "公告版",
-        "iconPath": "images/notification.png",
-        "selectedIconPath": "images/notification.png"
-      },
-      {
-        "pagePath": "pages/admin/index",
-        "text": "后台管理",
-        "iconPath": "images/key.png",
-        "selectedIconPath": "images/key.png"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "quickstart",
-        "iconPath": "images/icon_component.png",
-        "selectedIconPath": "images/icon_component_HL.png"
+        "pagePath": "pages/materials/materialsIndex",
+        "iconPath": "assets/notification.png",
+        "selectedIconPath": "assets/notification-HL.png",
+        "text": "物资借用"
       }
     ]
   }
